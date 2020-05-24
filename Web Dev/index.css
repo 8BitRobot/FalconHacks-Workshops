@@ -1,0 +1,75 @@
+body {
+    background-color: #333333;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.main-text {
+    color: rgb(210, 210, 255);
+}
+
+p.main-text {
+    font-size: 20px;
+}
+
+h1.main-text {
+    font-size: 50px;
+}
+
+nav {
+    width: 100vw;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-left {
+    float: left;
+}
+
+#nav-left a {
+    color: red;
+    font-size: 30px;
+    margin: 20px 3vw 20px 3vw;
+}
+
+#nav-left a:hover {
+    color: blue;
+    background-color: #88c0d0;
+}
+
+#nav-right {
+    float: right;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    height: 100px;
+}
+
+#content-left {
+    float: left;
+    margin-left: 10vw;
+}
+
+#content-right {
+    float: right;
+    margin-right: 10vw;
+}
+
+ul, li, ol {
+    color: rgb(210, 210, 255);
+}
+
+#display-is-annoying {
+    display: inline;
+}
+
+#lipsum {
+    font-size: 100px;
+}
